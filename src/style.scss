@@ -1,0 +1,75 @@
+.container{
+    margin: 20px 30px;
+    width: 375px;
+    border: 0;
+    box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.1);
+    padding: 4px 0;
+    .inputText{
+        display: inline-block;
+        margin: 0 auto;
+        width: 96%;
+        line-height: 38px;
+        background:#fff;
+        font-size: 20px;
+        color:#666;
+        outline:none;
+        padding:4px 6px; 
+        border-bottom: 1px solid #eee;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+    .btn{
+        display:inline-block;
+        width: 50px;
+        line-height: 23px;
+         background: rgba(0,0,0,0.003);
+         border: 1px solid #ccc;
+        //  margin-left:80px;
+         color: #555;
+     }
+    .list{
+        margin: 0 auto;
+        widows: 100%;
+        /* padding: 8px 10px; */
+        color: #555;
+    }
+    & .item{
+        width: 97%;
+        line-height: 30px;
+        border-bottom: 1px solid #eee;
+        padding: 6px 5px;
+        position: relative;
+        .circle{
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            border:1px solid #ccc;
+            border-radius:50%;
+            vertical-align:middle;
+        }
+        .itemText{
+            display:inline-block;
+            padding: 0 20px;
+            margin:0;
+            
+        }
+        .show{
+            position: absolute;
+            top: 13px;
+            left: 8px;
+            background: red;
+        }
+        input[type="checkbox"]{
+            position: absolute;
+            top: 13px;
+            left: 8px;
+            
+        }
+        .checkCircle{
+            display: none;
+        }
+        
+    }
+   
+}
